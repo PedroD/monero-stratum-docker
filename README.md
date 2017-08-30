@@ -32,6 +32,8 @@ So, in sum if you are a beginner:
 
 # Reserve a place in Heaven
 
-### Donation Monero address: 45Dizd9V5VvanN7YmJcNo6ddp8pcyuxFgFkL9zipWRnTfZJeQ5F4PFN7Dn9b5GkJnMiVQ1PVG8DyTfmjouLFBWtp5HYjs9w
+### Donation Monero address:
+45Dizd9V5VvanN7YmJcNo6ddp8pcyuxFgFkL9zipWRnTfZJeQ5F4PFN7Dn9b5GkJnMiVQ1PVG8DyTfmjouLFBWtp5HYjs9w
 
-### Donation Bitcoin address: 1K76eEG1gC7S2aehVbrqpdcNysrNhuC9V7
+### Donation Bitcoin address:
+1K76eEG1gC7S2aehVbrqpdcNysrNhuC9V7
