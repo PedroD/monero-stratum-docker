@@ -1,6 +1,6 @@
 # What is it?
 
-By running `start.sh` (if you have docker installed) you are automatically creating a Monero Stratum pool in your local machine.
+By running `start.sh` (if you have docker installed) you are automatically creating a [Monero Stratum pool](https://github.com/sammy007/monero-stratum.git) in your local machine.
 
 You can then connect any miner you like to this pool by connecting to localhost:3333 (or remote_ip:3333 if your miner is on another computer).
 
