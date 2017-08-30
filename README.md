@@ -26,7 +26,8 @@ So, in sum if you are a beginner:
 4. Run `sh start.sh` and wait some minutes until you start seeing logs like `2017/08/29 23:56:51 Loading config: /monero-stratum/config.json`.
 5. Configure any miner of your choice (eg. xmr-stak-nvidia, ccminer, etc) and configure it to use this stratum, for eg. my miner was configured this way: `ccminer -o stratum+tcp://192.168.0.108:3333 -u 45Dizd9V5VvanN7YmJcNo6ddp8pcyuxFgFkL9zipWRnTfZJeQ5F4PFN7Dn9b5GkJnMiVQ1PVG8DyTfmjouLFBWtp5HYjs9w`, where `192.168.0.108` is the IP of the machine running this docker container, which could be `localhost`.
 6. You can also activate the solo mining option in the Advanced tab on your monero-wallet-gui.
-7. Enjoy your solo mining!
+7. Take a look at http://localhost:8082/ in the machine where you're running the container.
+8. Enjoy your solo mining!
 
 **Note:** You can add more miners, if you are able to host this online you can create your own online private pool!
 
