@@ -22,8 +22,8 @@ RUN MONERO_DIR=/monero cmake .
 RUN make
 RUN go build -o pool main.go
 
-WORKDIR /
+WORKDIR /monero-stratum
 
 ADD config.json /monero-stratum/config.json
 
-CMD ["/monero-stratum/pool", "/monero-stratum/config.json"]
+CMD ["./pool", "config.json"]
