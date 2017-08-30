@@ -12,8 +12,26 @@ In practice this means you need to have `monerod` (monero daemon) running somewh
 
 Other alternative is to download monero-wallet-gui and start the daemon there.
 
-If it is your first time you'll have to download the entire blockchain (it will take hours), or you can just download it from [here](https://downloads.getmonero.org/blockchain.raw) and then import it to your wallet using `monero-blockchain-import --verify 0 --input-file ./blockchain.raw`.
+If it is your first time you'll have to download the entire blockchain (it will take hours), or you can just download it from [here](https://downloads.getmonero.org/blockchain.raw) and then import it to your wallet app using `monero-blockchain-import --verify 0 --input-file ./blockchain.raw`.
 
 `monero-blockchain-import` should be within the folder of monero-wallet-gui or your [monero](https://github.com/monero-project/monero.git) installation (check the Dockerfile of this project to see how monero is installed).
 
-Enjoy your solo mining!
+## The noob way
+
+So, in sum if you are a beginner:
+
+1. Install monero-wallet-gui.
+2. Download the blockchain and use the `monero-blockchain-import` command as I stated above, or just leave the wallet synchronizing for about half a day.
+3. Change the address in the `config.json` file to your wallet receive address (or leave mine there if you are feeling generous :) ).
+4. Run `sh start.sh` and wait some minutes until you start seeing logs like `2017/08/29 23:56:51 Loading config: /monero-stratum/config.json`.
+5. Configure any miner of your choice (eg. xmr-stak-nvidia, ccminer, etc) and configure it to use this stratum, for eg. my miner was configured this way: `ccminer -o stratum+tcp://192.168.0.108:3333 -u 45Dizd9V5VvanN7YmJcNo6ddp8pcyuxFgFkL9zipWRnTfZJeQ5F4PFN7Dn9b5GkJnMiVQ1PVG8DyTfmjouLFBWtp5HYjs9w`, where `192.168.0.108` is the IP of the machine running this docker container, which could be `localhost`.
+6. You can also activate the solo mining option in the Advanced tab on your monero-wallet-gui.
+7. Enjoy your solo mining!
+
+**Note:** You can add more miners, if you are able to host this online you can create your own online private pool!
+
+# Reserve a place in Heaven
+
+### Donation Monero address: 45Dizd9V5VvanN7YmJcNo6ddp8pcyuxFgFkL9zipWRnTfZJeQ5F4PFN7Dn9b5GkJnMiVQ1PVG8DyTfmjouLFBWtp5HYjs9w
+
+### Donation Bitcoin address: 1K76eEG1gC7S2aehVbrqpdcNysrNhuC9V7
