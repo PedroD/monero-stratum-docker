@@ -33,10 +33,3 @@ So, in sum if you are a beginner:
 
 **Note:** You can add more miners, if you are able to host this online you can create your own online private pool!
 
-# Reserve a place in Heaven
-
-### Donation Monero address:
-45Dizd9V5VvanN7YmJcNo6ddp8pcyuxFgFkL9zipWRnTfZJeQ5F4PFN7Dn9b5GkJnMiVQ1PVG8DyTfmjouLFBWtp5HYjs9w
-
-### Donation Bitcoin address:
-1K76eEG1gC7S2aehVbrqpdcNysrNhuC9V7
